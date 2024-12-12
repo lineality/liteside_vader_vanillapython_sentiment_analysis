@@ -797,7 +797,9 @@ class SentimentIntensityAnalyzer:
 
 def vader(file_path):
     analyzer = SentimentIntensityAnalyzer()
-    return analyzer.polarity_scores(file_path)
+    output = analyzer.polarity_scores(file_path)
+    print(output)
+    return output
 
 
 # #############
