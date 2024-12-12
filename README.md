@@ -46,6 +46,6 @@ libraries, packages, or other dependencies.
 It uses only standard-library python and
 (as of python 3.12, should run out of the box):
 
-Is this.. 
+Is this...
 https://github.com/ckw017/vader-sentiment-rust
-a new hope? >*<
+ ...a new hope? >*<
