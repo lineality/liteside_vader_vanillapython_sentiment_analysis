@@ -12,9 +12,12 @@ scores = analyzer.polarity_scores(text)
 # Sample Use 2
 ###############
 python liteside_vader.py "This deal is getting worse all the time"
+python vl3.py "This deal is getting worse all the time"  # |o|  |o|
 ```
 
 liteside_vader_vanillapython_sentiment_analysis
+
+### Version 3 Note: vl3.py is self contained with a built-in lexicon.
 
 ## Original (I think) (Legendary) Vader NLP project:
 MIT license Vader: https://github.com/cjhutto/vaderSentiment 
