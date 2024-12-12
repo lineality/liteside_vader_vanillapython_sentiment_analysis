@@ -8256,7 +8256,6 @@ def main():
     
     # Call the function
     analyzer = SentimentIntensityAnalyzer()  # No import needed
-    text = "This movie was absolutely amazing!"
     scores = analyzer.polarity_scores(input_text)
     print(scores)
 
