@@ -1,12 +1,17 @@
 
 # Lite-Side Vader: Vanilla Python Sentiment Analysis
 ```python
-#############
-# Sample Use
-#############
+###############
+# Sample Use 1
+###############
 analyzer = SentimentIntensityAnalyzer()
 text = "This sentiment is absolutely amazing!"
 scores = analyzer.polarity_scores(text)
+
+###############
+# Sample Use 2
+###############
+python liteside_vader.py "This deal is getting worse all the time"
 ```
 
 liteside_vader_vanillapython_sentiment_analysis
