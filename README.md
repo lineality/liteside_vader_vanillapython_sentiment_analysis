@@ -1,11 +1,5 @@
 
 # Lite-Side Vader: Vanilla Python Sentiment Analysis
-
-liteside_vader_vanillapython_sentiment_analysis
-
-## Original (I think) (Legendary) Vader NLP project:
-MIT license Vader: https://github.com/cjhutto/vaderSentiment 
-
 ```python
 #############
 # Sample Use
@@ -14,6 +8,12 @@ analyzer = SentimentIntensityAnalyzer()
 text = "This sentiment is absolutely amazing!"
 scores = analyzer.polarity_scores(text)
 ```
+
+liteside_vader_vanillapython_sentiment_analysis
+
+## Original (I think) (Legendary) Vader NLP project:
+MIT license Vader: https://github.com/cjhutto/vaderSentiment 
+
 
 
 This Vanilla Python Lite-Side Vader was inspired by 
