@@ -47,7 +47,12 @@ This lite-side vanilla python version code
 does not require any installed 3rd party 
 libraries, packages, or other dependencies.
 It uses only standard-library python and
-(as of python 3.12, should run out of the box):
+(as of python 3.12, should run out of the box).
+
+There is a version with a standard lexicon file.
+## VL3
+Version 3: vl3.py has a built in lexicon dictionary and so is
+better suited for production datascience and deployment.
 
 Is this...
 https://github.com/ckw017/vader-sentiment-rust
