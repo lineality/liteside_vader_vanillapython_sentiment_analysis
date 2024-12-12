@@ -45,36 +45,6 @@ does not require any installed 3rd party
 libraries, packages, or other dependencies.
 It uses only standard-library python and
 (as of python 3.12, should run out of the box):
-```python
-python liteside_vader.py "This deal is getting worse all the time"
-```
-
-You will need the (included) lexicon file,
-which you can also make/get by running this:
-```python
-import json
-import nltk
-nltk.download('vader_lexicon')
-
-# Run this once to create the JSON file
-def create_json_lexicon():
-    lexicon_file = nltk.data.load("sentiment/vader_lexicon.zip/vader_lexicon/vader_lexicon.txt")
-    lex_dict = {}
-    
-    for line in lexicon_file.split("\n"):
-        if line.strip():  # Check if line is not empty
-            (word, measure) = line.strip().split("\t")[0:2]
-            lex_dict[word] = float(measure)
-
-    print("dict len is 7502? -> ", len(lex_dict))
-    
-    # Save to JSON file
-    with open('vader_lexicon.json', 'w', encoding='utf-8') as f:
-        json.dump(lex_dict, f, ensure_ascii=False, indent=2)
-
-# Run this function once to create the JSON file
-create_json_lexicon()
-```
 
 Is this.. 
 https://github.com/ckw017/vader-sentiment-rust
