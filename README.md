@@ -19,7 +19,7 @@ e.g.
 python vader_lite.py -p "This deal is getting worse all the time."
 ``` 
 
-### Method 2. Within python, import class, 
+### Method 3. Within python, import class, 
 call class methods on input
 ```python
 from vader_lite import SentimentIntensityAnalyzer  # import from local module
