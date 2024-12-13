@@ -12,11 +12,11 @@ python vader_lite.py "YOUR INPUT IN QUOTES"
 ### Method 2. Use as bash script for text-file-path 
 (vanilla python, no env needed) 
 ```bash
-python vader_lite.py -p <text_file_path>
+python vader_lite.py --path <text_file_path>
 ``` 
 e.g.
 ```bash
-python vader_lite.py -p "This deal is getting worse all the time."
+python vader_lite.py --path starwars_trivia.text
 ``` 
 
 ### Method 3. Within python, import class, 

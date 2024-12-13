@@ -8257,7 +8257,7 @@ def main():
     Method 2. Use as bash script for text-file-path 
               (vanilla python, no env needed) 
     ```bash
-    python vader_lite.py -p <text_file_path>
+    python vader_lite.py --path <text_file_path>
     ``` 
     
     Method 2. Within python, import class, 
