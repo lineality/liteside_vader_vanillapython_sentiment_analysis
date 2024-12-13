@@ -6,7 +6,7 @@ liteside_vader_vanillapython_sentiment_analysis
 ### Method 1. Use as bash script for string 
 (vanilla python, no env needed) 
 ```bash
-### python vader_lite.py "YOUR INPUT IN QUOTES"
+python vader_lite.py "YOUR INPUT IN QUOTES"
 ``` 
 
 ### Method 2. Use as bash script for text-file-path 
